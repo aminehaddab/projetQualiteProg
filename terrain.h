@@ -13,9 +13,12 @@ class terrain {
 public:
     terrain(int lignes, int colonnes);
     vector <vector <int>> tableau () const;
+    int nbLignes() const;
+    int nbColonnes(int ligne) const;
     void afficherTerrain() const;
-private:
+    private:
     vector <vector <int>> d_tableau;
+
 };
 
 #endif

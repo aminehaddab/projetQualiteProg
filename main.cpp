@@ -10,8 +10,8 @@ using namespace std;
 
 int main()
 {
-    terrain t {3,3};
-
-    cout<<"val : "<<t.tableau()[0][0]<<endl;
+    terrain t {10,13};
+    //cout << t.d_tableau[0].size();
+    t.afficherTerrain();
     return 0;
 }

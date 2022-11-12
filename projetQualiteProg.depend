@@ -67,3 +67,71 @@
 	<memory>
 	<string>
 
+1668212965 source:c:\users\amine\onedrive\documents\projetqualiteprog\fauve.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"fauve.h"
+
+1668212965 c:\users\amine\onedrive\documents\projetqualiteprog\fauve.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668212965 source:c:\users\amine\onedrive\documents\projetqualiteprog\lion.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"lion.h"
+
+1668212965 c:\users\amine\onedrive\documents\projetqualiteprog\lion.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668212965 source:c:\users\amine\onedrive\documents\projetqualiteprog\tigre.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"tigre.h"
+
+1668212965 c:\users\amine\onedrive\documents\projetqualiteprog\tigre.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668215348 source:c:\users\amine\onedrive\documents\projetqualiteprog\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1668216341 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668216951 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
