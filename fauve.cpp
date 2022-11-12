@@ -5,3 +5,5 @@
 #include<string>
 #include"fauve.h"
 
+using namespace std;
+

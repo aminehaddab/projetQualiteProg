@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1667436854 source:c:\users\elève\documents\projetqualiteprog\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1667432907 source:c:\users\elève\documents\projetqualiteprog\fauve.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"fauve.h"
+
+1667432924 c:\users\elève\documents\projetqualiteprog\fauve.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1667432911 source:c:\users\elève\documents\projetqualiteprog\lion.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"lion.h"
+
+1667432928 c:\users\elève\documents\projetqualiteprog\lion.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1667432919 source:c:\users\elève\documents\projetqualiteprog\tigre.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"tigre.h"
+
+1667432936 c:\users\elève\documents\projetqualiteprog\tigre.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1667436829 source:c:\users\elève\documents\projetqualiteprog\terrain.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1667437245 c:\users\elève\documents\projetqualiteprog\terrain.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+

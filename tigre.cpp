@@ -4,3 +4,5 @@
 #include<memory>
 #include<string>
 #include"tigre.h"
+
+using namespace std;
