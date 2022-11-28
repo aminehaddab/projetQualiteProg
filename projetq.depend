@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1669634220 source:c:\users\lolo pc\desktop\projetqualite\projetq\fauve.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"fauve.h"
+
+1669634220 c:\users\lolo pc\desktop\projetqualite\projetq\fauve.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1669634220 source:c:\users\lolo pc\desktop\projetqualite\projetq\joueur.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"joueur.h"
+
+1669634220 c:\users\lolo pc\desktop\projetqualite\projetq\joueur.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1669634220 source:c:\users\lolo pc\desktop\projetqualite\projetq\lion.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"lion.h"
+
+1669634220 c:\users\lolo pc\desktop\projetqualite\projetq\lion.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1669635362 source:c:\users\lolo pc\desktop\projetqualite\projetq\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1669634220 c:\users\lolo pc\desktop\projetqualite\projetq\terrain.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1669634220 source:c:\users\lolo pc\desktop\projetqualite\projetq\personnage.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"personnage.h"
+
+1669634220 c:\users\lolo pc\desktop\projetqualite\projetq\personnage.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1669634220 source:c:\users\lolo pc\desktop\projetqualite\projetq\terrain.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1669634220 source:c:\users\lolo pc\desktop\projetqualite\projetq\tigre.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"tigre.h"
+
+1669634220 c:\users\lolo pc\desktop\projetqualite\projetq\tigre.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
