@@ -4,14 +4,19 @@
 #include<memory>
 #include<string>
 #include"terrain.h"
+#include"point.h"
 
 
 using namespace std;
+ using geom::point;
 
 int main()
 {
-    terrain t {10,13};
-    //cout << t.d_tableau[0].size();
-    t.afficherTerrain();
+    point p {};
+    terrain t {};
+    // cout << t.d_tableau[0].size();
+    // t.afficherTerrain();
+    //t.creerTerrain();
+    t.chargerTerrain();
     return 0;
 }
