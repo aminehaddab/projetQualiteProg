@@ -1,7 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 #include "Position.h"
-class Entity :
+class Entity
 {
 public:
     virtual ~Entity()= default;
@@ -11,7 +11,7 @@ public:
     //les conditions seront spécifique a chaque animated entity
     //les still entity on autre chose.
     private:
-        Position d_position;
+        position d_position;
 };
 
 

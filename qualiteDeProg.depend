@@ -1,0 +1,143 @@
+# depslib dependency file v1.0
+1671116342 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\animatedentity.cpp
+
+1671116531 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\classic.cpp
+
+1671539988 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+	"point.h"
+
+1671539988 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\terrain.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"point.h"
+
+1671539988 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\point.h
+	<iosfwd>
+
+1671539988 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\personnage.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"personnage.h"
+
+1671539988 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\personnage.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1671116485 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\players.cpp
+
+1671539988 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\point.cpp
+	<iostream>
+	<cmath>
+	"point.h"
+
+1671121069 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\position.cpp
+	"Position.h"
+
+1671119955 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\position.h
+
+1671116559 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\tawnys.cpp
+
+1671539988 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\terrain.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	<fstream>
+	<sstream>
+	"terrain.h"
+	"point.h"
+
+1671121247 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\testmain.cpp
+	"doctest.h"
+
+1670995660 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\doctest.h
+	<signal.h>
+	<ciso646>
+	<cstddef>
+	<ostream>
+	<istream>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<unordered_set>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<string>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1671133684 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\testposition.cpp
+	"doctest.h"
+	"position.h"
+	<sstream>
+	<string>
+
+1671116578 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\tiger.cpp
+
+1671118238 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\trap.cpp
+
+1671118260 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\tree.cpp
+
+1671539103 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\expert.cpp
+	"Expert.h"
+
+1671556607 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\expert.h
+	"Players.h"
+
+1671556644 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\players.h
+	"AnimatedEntity.h"
+
+1671556681 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\animatedentity.h
+	"Entity.h"
+
+1671556821 c:\users\user\documents\cours uha\poo cpp\qualitedeprog\entity.h
+	"Position.h"
+
+1671556838 source:c:\users\user\documents\cours uha\poo cpp\qualitedeprog\stillentity.cpp
+	"Entity.h"
+

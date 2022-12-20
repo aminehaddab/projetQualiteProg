@@ -3,7 +3,7 @@
 #include<vector>
 #include<memory>
 #include<string>
-#include"personnage.h"
+//#include"fauve.h"
 
 using namespace std;
 

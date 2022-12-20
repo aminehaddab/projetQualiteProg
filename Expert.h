@@ -1,6 +1,6 @@
 #ifndef EXPERT_H
 #define EXPERT_H
-
+#include "Players.h"
 
 class Expert : public Players
 {

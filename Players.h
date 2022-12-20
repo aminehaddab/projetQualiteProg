@@ -1,6 +1,6 @@
 #ifndef PLAYERS_H
 #define PLAYERS_H
-
+#include "AnimatedEntity.h"
 class Players: public AnimatedEntity
 {
 public:
