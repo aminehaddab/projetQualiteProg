@@ -1,0 +1,5 @@
+#ifndef TESTPOSITION_H
+#define TESTPOSITION_H
+
+
+#endif // TESTPOSITION_H

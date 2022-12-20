@@ -1,0 +1,20 @@
+Nom du terrain : t1
+Nombre de lignes : 3
+Nombre de colonnes : 3
+Position du joueur : (0,0)
+Position(s) des lion(s) : (0,1) 
+Position(s) des fauve(s) : (1,0) 
+Position(s) des arbre(s) : none
+Position(s) des piege(s) : none
+
+-
+Nom du terrain : t2
+Nombre de lignes : 4
+Nombre de colonnes : 4
+Position du joueur : (0,0)
+Position(s) des lion(s) : (0,1) 
+Position(s) des fauve(s) : (1,0) 
+Position(s) des arbre(s) : none
+Position(s) des piege(s) : none
+
+-
