@@ -32,7 +32,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="README.md" />
+		<Unit filename="fauve.cpp" />
+		<Unit filename="fauve.h" />
+		<Unit filename="joueur.cpp" />
+		<Unit filename="joueur.h" />
+		<Unit filename="lion.cpp" />
+		<Unit filename="lion.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="personnage.cpp" />
+		<Unit filename="personnage.h" />
+		<Unit filename="point.cpp" />
+		<Unit filename="point.h" />
+		<Unit filename="terrain.cpp" />
+		<Unit filename="terrain.h" />
+		<Unit filename="terrains.txt" />
+		<Unit filename="tigre.cpp" />
+		<Unit filename="tigre.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
