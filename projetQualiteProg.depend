@@ -1,0 +1,174 @@
+# depslib dependency file v1.0
+1667436854 source:c:\users\elève\documents\projetqualiteprog\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1667432907 source:c:\users\elève\documents\projetqualiteprog\fauve.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"fauve.h"
+
+1667432924 c:\users\elève\documents\projetqualiteprog\fauve.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1667432911 source:c:\users\elève\documents\projetqualiteprog\lion.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"lion.h"
+
+1667432928 c:\users\elève\documents\projetqualiteprog\lion.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1667432919 source:c:\users\elève\documents\projetqualiteprog\tigre.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"tigre.h"
+
+1667432936 c:\users\elève\documents\projetqualiteprog\tigre.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1667436829 source:c:\users\elève\documents\projetqualiteprog\terrain.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+
+1667437245 c:\users\elève\documents\projetqualiteprog\terrain.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668212965 source:c:\users\amine\onedrive\documents\projetqualiteprog\fauve.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"fauve.h"
+
+1668212965 c:\users\amine\onedrive\documents\projetqualiteprog\fauve.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1671116601 source:c:\users\amine\onedrive\documents\projetqualiteprog\lion.cpp
+
+1668212965 c:\users\amine\onedrive\documents\projetqualiteprog\lion.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668212965 source:c:\users\amine\onedrive\documents\projetqualiteprog\tigre.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"tigre.h"
+
+1668212965 c:\users\amine\onedrive\documents\projetqualiteprog\tigre.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1671557918 source:c:\users\amine\onedrive\documents\projetqualiteprog\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"terrain.h"
+	"point.h"
+
+1671557918 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"point.h"
+
+1671557918 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	<fstream>
+	<sstream>
+	"terrain.h"
+	"point.h"
+
+1668899826 source:c:\users\amine\onedrive\documents\projetqualiteprog\joueur.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"joueur.h"
+
+1668899821 c:\users\amine\onedrive\documents\projetqualiteprog\joueur.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1668899605 source:c:\users\amine\onedrive\documents\projetqualiteprog\personnage.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+	"personnage.h"
+
+1668899598 c:\users\amine\onedrive\documents\projetqualiteprog\personnage.h
+	<iostream>
+	<cmath>
+	<vector>
+	<memory>
+	<string>
+
+1671557918 source:c:\users\amine\onedrive\documents\projetqualiteprog\point.cpp
+	<iostream>
+	<cmath>
+	"point.h"
+
+1671557918 c:\users\amine\onedrive\documents\projetqualiteprog\point.h
+	<iosfwd>
+
