@@ -1,5 +1,5 @@
-#ifndef TAWNYS_H
-#define TAWNYS_H
+#ifndef TAWNY_H
+#define TAWNY_H
 #include "animatedentity.h"
 
 class tawny: public animatedentity
@@ -8,4 +8,4 @@ public:
     tawny(int x, int y);
 
 };
-#endif // TAWNYS_H
+#endif // TAWNY_H

@@ -9,6 +9,47 @@
 #include"point.h"
 
 using namespace std;
+
+terrain::terrain(vector<vector<char>> &t, unique_ptr<player> &p, vector<unique_ptr<tawny>> &tawnys, vector<unique_ptr<trap>> &traps, vector<unique_ptr<tree>> &trees){
+
+}
+
+void terrain::afficherTerrain(){
+
+}
+
+void terrain::chargerTerrain(){
+
+}
+
+void terrain::creerTerrain(){
+
+}
+
+void terrain::editerTerrain(){
+
+}
+
+void terrain::sauverTerrain(){
+
+}
+
+void terrain::changerConfigTerrain(){
+
+}
+
+void terrain::tuerTawny(){
+
+}
+
+void terrain::desactiverPiege(){
+
+}
+
+
+
+
+/*
 using geom::point;
 
 terrain::terrain(int lignes, int colonnes):d_tableau(vector<vector<int>>(lignes, vector<int>(colonnes, 0))) {}
@@ -334,4 +375,4 @@ void terrain::chargerTerrain(){
 
    }
 }
-
+*/

@@ -4,7 +4,6 @@
 #include "entity.h"
 #include "terrain.h"
 
-
 using namespace std;
 
 class animatedentity : public entity

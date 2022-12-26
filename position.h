@@ -9,7 +9,6 @@ public:
 
     int x() const;
     int y() const;
-
     void deplacer(int x, int y);
     void deplacerX(int x);
     void deplacerY(int y);

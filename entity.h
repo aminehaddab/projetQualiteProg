@@ -5,6 +5,7 @@
 class entity
 {
 public:
+
     entity(int x, int y);
     position pos() const;
 

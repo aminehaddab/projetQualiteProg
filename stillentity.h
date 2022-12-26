@@ -4,6 +4,7 @@
 
 class stillentity: public entity
 {
-
+public:
+    stillentity(int x, int y);
 };
 #endif // STILLENTITY_H

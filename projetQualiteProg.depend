@@ -104,12 +104,21 @@
 	<memory>
 	<string>
 
-1672007754 source:c:\users\amine\onedrive\documents\projetqualiteprog\main.cpp
+1672016607 source:c:\users\amine\onedrive\documents\projetqualiteprog\main.cpp
 	<iostream>
 	"entity.h"
 	"position.h"
+	"animatedentity.h"
+	"classic.h"
+	"expert.h"
+	"lion.h"
+	"player.h"
+	"stillentity.h"
+	"tawny.h"
+	"terrain.h"
+	"tiger.h"
 
-1672009783 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
+1672023161 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
 	<iostream>
 	<cmath>
 	<vector>
@@ -117,7 +126,7 @@
 	<string>
 	"point.h"
 
-1672009783 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
+1672019617 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
 	<iostream>
 	<cmath>
 	<vector>
@@ -166,38 +175,38 @@
 1671557918 c:\users\amine\onedrive\documents\projetqualiteprog\point.h
 	<iosfwd>
 
-1672008315 source:c:\users\amine\onedrive\documents\projetqualiteprog\position.cpp
+1672016583 source:c:\users\amine\onedrive\documents\projetqualiteprog\position.cpp
 	"position.h"
 
-1672008197 c:\users\amine\onedrive\documents\projetqualiteprog\position.h
+1672016586 c:\users\amine\onedrive\documents\projetqualiteprog\position.h
 
-1672013505 c:\users\amine\onedrive\documents\projetqualiteprog\entity.h
+1672023286 c:\users\amine\onedrive\documents\projetqualiteprog\entity.h
 	"position.h"
 
 1672013839 source:c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.cpp
 	"animatedentity.h"
 
-1672013809 c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.h
+1672018214 c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.h
 	<vector>
 	"entity.h"
 	"terrain.h"
 
-1672009961 source:c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.cpp
+1672018365 source:c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.cpp
 	"stillentity.h"
 
-1672010132 c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.h
+1672018247 c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.h
 	"entity.h"
 
 1672014096 source:c:\users\amine\onedrive\documents\projetqualiteprog\player.cpp
 	"player.h"
 
-1672013936 c:\users\amine\onedrive\documents\projetqualiteprog\player.h
+1672023437 c:\users\amine\onedrive\documents\projetqualiteprog\player.h
 	"animatedentity.h"
 
 1672014654 source:c:\users\amine\onedrive\documents\projetqualiteprog\tawny.cpp
 	"tawny.h"
 
-1672014540 c:\users\amine\onedrive\documents\projetqualiteprog\tawny.h
+1672021403 c:\users\amine\onedrive\documents\projetqualiteprog\tawny.h
 	"animatedentity.h"
 
 1672013607 source:c:\users\amine\onedrive\documents\projetqualiteprog\entity.cpp
@@ -223,4 +232,16 @@
 
 1672015242 c:\users\amine\onedrive\documents\projetqualiteprog\tiger.h
 	"tawny.h"
+
+1672019059 source:c:\users\amine\onedrive\documents\projetqualiteprog\trap.cpp
+	"trap.h"
+
+1672019181 source:c:\users\amine\onedrive\documents\projetqualiteprog\tree.cpp
+	"tree.h"
+
+1672019152 c:\users\amine\onedrive\documents\projetqualiteprog\tree.h
+	"stillentity.h"
+
+1672019008 c:\users\amine\onedrive\documents\projetqualiteprog\trap.h
+	"stillentity.h"
 
