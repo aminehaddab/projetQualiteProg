@@ -24,3 +24,7 @@ void tiger::deplacerW(){
 void tiger::deplacer(terrain &t){
 
 }
+
+char tiger::type(){
+    return 'T';
+}

@@ -9,6 +9,7 @@ public:
     int capacite() const;
     bool plein() const;
     void decrCapacite();
+    char type() override;
 private:
     int d_capacite;
     bool d_plein;

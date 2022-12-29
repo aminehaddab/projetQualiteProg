@@ -25,3 +25,6 @@ void lion::deplacer(terrain &t){
 
 }
 
+char lion::type(){
+    return 'L';
+}

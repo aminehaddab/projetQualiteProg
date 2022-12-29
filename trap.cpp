@@ -15,3 +15,7 @@ bool trap::plein() const{
 void trap::decrCapacite(){
     d_capacite--;
 }
+
+char trap::type(){
+    return 'P';
+}

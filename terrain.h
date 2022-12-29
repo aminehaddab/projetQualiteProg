@@ -1,25 +1,19 @@
 #ifndef TERRAIN_H
 #define TERRAIN_H
-
-#include<iostream>
-#include<cmath>
-#include<vector>
-#include<memory>
-#include<string>
-#include "point.h"
-class player;
-class tawny;
-class trap;
-class tree;
-class position;
-
+#include "memory"
+#include "tawny.h"
+#include "trap.h"
+#include "tree.h"
+#include "player.h"
 
 using namespace std;
 
 class terrain
 {
 public:
-    terrain(vector<vector<char>> &t, unique_ptr<player> &p, vector<unique_ptr<tawny>> &tawnys, vector<unique_ptr<trap>> &traps, vector<unique_ptr<tree>> &trees);
+    terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys);
+    int nbLignes() const;
+    int nbColonnes() const;
     void afficherTerrain();
     void chargerTerrain();
     void creerTerrain();

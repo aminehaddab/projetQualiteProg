@@ -3,3 +3,7 @@
 tree::tree(int x, int y):stillentity{x,y}{
 
 }
+
+char tree::type(){
+    return 'A';
+}

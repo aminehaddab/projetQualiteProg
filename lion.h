@@ -11,6 +11,7 @@ public:
     void deplacerE();
     void deplacerW();
     void deplacer(terrain &t) override;
+    char type() override;
 };
 
 #endif // LION_H

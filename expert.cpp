@@ -24,3 +24,7 @@ void expert::deplacerW(){
 void expert::deplacer(terrain &t){
 
 }
+
+char expert::type(){
+    return 'E';
+}

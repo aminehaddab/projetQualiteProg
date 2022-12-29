@@ -2,7 +2,7 @@
 #define ANIMATEDENTITY_H
 #include <vector>
 #include "entity.h"
-#include "terrain.h"
+class terrain;
 
 using namespace std;
 

@@ -1,21 +1,41 @@
 #include<iostream>
-#include<cmath>
-#include<vector>
-#include<memory>
-#include<string>
-#include<fstream>
-#include <sstream>
-#include"terrain.h"
-#include"point.h"
+#include "terrain.h"
+#include "player.h"
 
 using namespace std;
 
-terrain::terrain(vector<vector<char>> &t, unique_ptr<player> &p, vector<unique_ptr<tawny>> &tawnys, vector<unique_ptr<trap>> &traps, vector<unique_ptr<tree>> &trees){
+terrain::terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys)
+:d_terrain(vector<vector<char>>(lignes, vector<char>(colonnes, '_'))), d_player{move(player)}, d_tawnys(move(tawnys)){
 
 }
 
-void terrain::afficherTerrain(){
+int terrain::nbLignes() const {
+    return d_terrain.size();
+}
 
+int terrain::nbColonnes() const {
+    return d_terrain[0].size();
+}
+
+void terrain::afficherTerrain(){
+    for (int i = 0; i < nbLignes(); ++i){
+        for (int j = 0; j < nbColonnes(); ++j){
+            d_terrain[i][j] = '_';
+        }
+    }
+
+    d_terrain[d_player->pos().x()][d_player->pos().y()] = d_player->type();
+
+    for (auto const& taw: d_tawnys){
+        d_terrain[taw->pos().x()][taw->pos().y()] = taw->type();
+    }
+
+    for (int i = 0; i < nbLignes(); ++i){
+        for (int j = 0; j < nbColonnes(); ++j){
+           cout << d_terrain[i][j];
+        }
+        cout << endl;
+    }
 }
 
 void terrain::chargerTerrain(){
@@ -46,7 +66,13 @@ void terrain::desactiverPiege(){
 
 }
 
+unique_ptr<tawny> tawnyAtPosition(position p){
 
+}
+
+unique_ptr<trap> trapAtPosition(position p){
+
+}
 
 
 /*

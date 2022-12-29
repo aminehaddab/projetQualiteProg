@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1667436854 source:c:\users\elève\documents\projetqualiteprog\main.cpp
+1672278703 source:c:\users\elève\documents\projetqualiteprog\main.cpp
 	<iostream>
-	<cmath>
-	<vector>
 	<memory>
-	<string>
 	"terrain.h"
+	"classic.h"
+	"expert.h"
+	"tiger.h"
+	"lion.h"
 
 1667432907 source:c:\users\elève\documents\projetqualiteprog\fauve.cpp
 	<iostream>
@@ -22,20 +23,12 @@
 	<memory>
 	<string>
 
-1667432911 source:c:\users\elève\documents\projetqualiteprog\lion.cpp
-	<iostream>
-	<cmath>
-	<vector>
-	<memory>
-	<string>
+1672278303 source:c:\users\elève\documents\projetqualiteprog\lion.cpp
 	"lion.h"
+	"position.h"
 
-1667432928 c:\users\elève\documents\projetqualiteprog\lion.h
-	<iostream>
-	<cmath>
-	<vector>
-	<memory>
-	<string>
+1672278673 c:\users\elève\documents\projetqualiteprog\lion.h
+	"tawny.h"
 
 1667432919 source:c:\users\elève\documents\projetqualiteprog\tigre.cpp
 	<iostream>
@@ -52,20 +45,17 @@
 	<memory>
 	<string>
 
-1667436829 source:c:\users\elève\documents\projetqualiteprog\terrain.cpp
+1672279269 source:c:\users\elève\documents\projetqualiteprog\terrain.cpp
 	<iostream>
-	<cmath>
-	<vector>
-	<memory>
-	<string>
 	"terrain.h"
+	"player.h"
 
-1667437245 c:\users\elève\documents\projetqualiteprog\terrain.h
-	<iostream>
-	<cmath>
-	<vector>
-	<memory>
-	<string>
+1672275433 c:\users\elève\documents\projetqualiteprog\terrain.h
+	"memory"
+	"tawny.h"
+	"trap.h"
+	"tree.h"
+	"player.h"
 
 1668212965 source:c:\users\amine\onedrive\documents\projetqualiteprog\fauve.cpp
 	<iostream>
@@ -243,5 +233,79 @@
 	"stillentity.h"
 
 1672019008 c:\users\amine\onedrive\documents\projetqualiteprog\trap.h
+	"stillentity.h"
+
+1672276940 source:c:\users\elève\documents\projetqualiteprog\animatedentity.cpp
+	"animatedentity.h"
+
+1672276835 c:\users\elève\documents\projetqualiteprog\animatedentity.h
+	<vector>
+	"entity.h"
+
+1672277695 c:\users\elève\documents\projetqualiteprog\entity.h
+	"position.h"
+
+1672164265 c:\users\elève\documents\projetqualiteprog\position.h
+
+1672164265 c:\users\elève\documents\projetqualiteprog\point.h
+	<iosfwd>
+
+1672278237 source:c:\users\elève\documents\projetqualiteprog\classic.cpp
+	"classic.h"
+	"position.h"
+
+1672278665 c:\users\elève\documents\projetqualiteprog\classic.h
+	"player.h"
+	"terrain.h"
+
+1672253029 c:\users\elève\documents\projetqualiteprog\player.h
+	"animatedentity.h"
+
+1672164265 source:c:\users\elève\documents\projetqualiteprog\entity.cpp
+	"entity.h"
+
+1672278273 source:c:\users\elève\documents\projetqualiteprog\expert.cpp
+	"expert.h"
+	"position.h"
+
+1672278669 c:\users\elève\documents\projetqualiteprog\expert.h
+	"player.h"
+	"terrain.h"
+
+1672279285 c:\users\elève\documents\projetqualiteprog\tawny.h
+	"animatedentity.h"
+
+1672276820 source:c:\users\elève\documents\projetqualiteprog\player.cpp
+	"player.h"
+
+1672164265 source:c:\users\elève\documents\projetqualiteprog\position.cpp
+	"position.h"
+
+1672164265 source:c:\users\elève\documents\projetqualiteprog\stillentity.cpp
+	"stillentity.h"
+
+1672164265 c:\users\elève\documents\projetqualiteprog\stillentity.h
+	"entity.h"
+
+1672164265 source:c:\users\elève\documents\projetqualiteprog\tawny.cpp
+	"tawny.h"
+
+1672278325 source:c:\users\elève\documents\projetqualiteprog\tiger.cpp
+	"tiger.h"
+	"position.h"
+
+1672278677 c:\users\elève\documents\projetqualiteprog\tiger.h
+	"tawny.h"
+
+1672278355 source:c:\users\elève\documents\projetqualiteprog\trap.cpp
+	"trap.h"
+
+1672278683 c:\users\elève\documents\projetqualiteprog\trap.h
+	"stillentity.h"
+
+1672278387 source:c:\users\elève\documents\projetqualiteprog\tree.cpp
+	"tree.h"
+
+1672278687 c:\users\elève\documents\projetqualiteprog\tree.h
 	"stillentity.h"
 

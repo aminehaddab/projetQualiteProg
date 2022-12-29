@@ -5,9 +5,10 @@
 class entity
 {
 public:
-
     entity(int x, int y);
     position pos() const;
+    virtual ~entity() = default;
+    virtual char type() = 0;
 
 protected:
     position d_position;

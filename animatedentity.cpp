@@ -1,6 +1,6 @@
 #include "animatedentity.h"
 
-animatedentity::animatedentity(int x, int y):entity{x,y}{
+animatedentity::animatedentity(int x, int y):entity{x,y}, d_vivant{true}{
 
 }
 

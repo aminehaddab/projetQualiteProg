@@ -1,12 +1,12 @@
 #ifndef CLASSIC_H
 #define CLASSIC_H
 #include "player.h"
+#include "terrain.h"
 
 class classic : public player
 {
 public:
-    expert(const position &pos);
-    expert(int x, int y);
+    classic(int x, int y);
     void deplacerN();
     void deplacerS();
     void deplacerE();
@@ -16,6 +16,7 @@ public:
     void deplacerSE();
     void deplacerSW();
     void deplacer(terrain &t) override;
+    char type() override;
 private:
 
 };

@@ -6,6 +6,7 @@ class tree : public stillentity
 {
 public:
     tree(int x, int y);
+    char type() override;
 };
 
 #endif // TREE_H

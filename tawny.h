@@ -2,8 +2,8 @@
 #define TAWNY_H
 #include "animatedentity.h"
 
-class tawny: public animatedentity
-{
+
+class tawny: public animatedentity {
 public:
     tawny(int x, int y);
 

@@ -5,7 +5,7 @@
 class player: public animatedentity
 {
 public:
-     ~player() = default;
+    virtual ~player() = default;
     player(int x, int y);
 protected:
 
