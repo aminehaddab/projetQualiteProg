@@ -4,8 +4,12 @@
 
 using namespace std;
 
-terrain::terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys)
-:d_terrain(vector<vector<char>>(lignes, vector<char>(colonnes, '_'))), d_player{move(player)}, d_tawnys(move(tawnys)){
+terrain::terrain(const terrain& t){
+
+}
+
+terrain::terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys, vector<unique_ptr<trap>> traps, vector<unique_ptr<tree>> trees)
+:d_terrain(vector<vector<char>>(lignes, vector<char>(colonnes, '_'))), d_player{move(player)}, d_tawnys(move(tawnys)), d_traps(move(traps)), d_trees(move(trees)){
 
 }
 
@@ -27,7 +31,19 @@ void terrain::afficherTerrain(){
     d_terrain[d_player->pos().x()][d_player->pos().y()] = d_player->type();
 
     for (auto const& taw: d_tawnys){
-        d_terrain[taw->pos().x()][taw->pos().y()] = taw->type();
+        if(taw->estVivant()){
+            d_terrain[taw->pos().x()][taw->pos().y()] = taw->type();
+        }
+    }
+
+    for (auto const& tra: d_traps){
+        if(!tra->plein()){
+            d_terrain[tra->pos().x()][tra->pos().y()] = tra->type();
+        }
+    }
+
+    for (auto const& tre: d_trees){
+        d_terrain[tre->pos().x()][tre->pos().y()] = tre->type();
     }
 
     for (int i = 0; i < nbLignes(); ++i){
@@ -58,19 +74,34 @@ void terrain::changerConfigTerrain(){
 
 }
 
-void terrain::tuerTawny(){
-
+void terrain::tuerTawny(position p){
+    for(int i = 0; i < d_tawnys.size(); ++i){
+        if(d_tawnys[i]->pos().x() == p.x() && d_tawnys[i]->pos().y() == p.y()){
+            d_tawnys.erase(d_tawnys.begin() + i);
+            break;
+        }
+    }
 }
 
-void terrain::desactiverPiege(){
-
+void terrain::desactiverPiege(position p){
+    for(int i = 0; i < d_traps.size(); ++i){
+        if(d_traps[i]->pos().x() == p.x() && d_traps[i]->pos().y() == p.y()){
+            d_traps.erase(d_traps.begin() + i);
+            break;
+        }
+    }
 }
 
-unique_ptr<tawny> tawnyAtPosition(position p){
-
+unique_ptr<tawny> terrain::tawnyAtPosition(position p){
+    for (auto &taw: d_tawnys){
+        if(taw->pos().x() == p.x() && taw->pos().y() == p.y()){
+            return move(taw);
+        }
+    }
+    return nullptr;
 }
 
-unique_ptr<trap> trapAtPosition(position p){
+unique_ptr<trap> terrain::trapAtPosition(position p){
 
 }
 

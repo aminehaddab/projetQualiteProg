@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1672278703 source:c:\users\elève\documents\projetqualiteprog\main.cpp
+1672482362 source:c:\users\elève\documents\projetqualiteprog\main.cpp
 	<iostream>
 	<memory>
 	"terrain.h"
@@ -7,6 +7,7 @@
 	"expert.h"
 	"tiger.h"
 	"lion.h"
+	"game.h"
 
 1667432907 source:c:\users\elève\documents\projetqualiteprog\fauve.cpp
 	<iostream>
@@ -45,12 +46,12 @@
 	<memory>
 	<string>
 
-1672279269 source:c:\users\elève\documents\projetqualiteprog\terrain.cpp
+1672433327 source:c:\users\elève\documents\projetqualiteprog\terrain.cpp
 	<iostream>
 	"terrain.h"
 	"player.h"
 
-1672275433 c:\users\elève\documents\projetqualiteprog\terrain.h
+1672433301 c:\users\elève\documents\projetqualiteprog\terrain.h
 	"memory"
 	"tawny.h"
 	"trap.h"
@@ -297,10 +298,10 @@
 1672278677 c:\users\elève\documents\projetqualiteprog\tiger.h
 	"tawny.h"
 
-1672278355 source:c:\users\elève\documents\projetqualiteprog\trap.cpp
+1672280099 source:c:\users\elève\documents\projetqualiteprog\trap.cpp
 	"trap.h"
 
-1672278683 c:\users\elève\documents\projetqualiteprog\trap.h
+1672280066 c:\users\elève\documents\projetqualiteprog\trap.h
 	"stillentity.h"
 
 1672278387 source:c:\users\elève\documents\projetqualiteprog\tree.cpp
@@ -308,4 +309,10 @@
 
 1672278687 c:\users\elève\documents\projetqualiteprog\tree.h
 	"stillentity.h"
+
+1672482248 source:c:\users\elève\documents\projetqualiteprog\game.cpp
+	"game.h"
+
+1672482402 c:\users\elève\documents\projetqualiteprog\game.h
+	"terrain.h"
 

@@ -11,7 +11,8 @@ using namespace std;
 class terrain
 {
 public:
-    terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys);
+    terrain(const terrain& t);
+    terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys, vector<unique_ptr<trap>> traps, vector<unique_ptr<tree>> trees);
     int nbLignes() const;
     int nbColonnes() const;
     void afficherTerrain();
@@ -20,8 +21,8 @@ public:
     void editerTerrain();
     void sauverTerrain();
     void changerConfigTerrain();
-    void tuerTawny();
-    void desactiverPiege();
+    void tuerTawny(position p);
+    void desactiverPiege(position p);
     unique_ptr<tawny> tawnyAtPosition(position p);
     unique_ptr<trap> trapAtPosition(position p);
 

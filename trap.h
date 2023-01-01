@@ -5,7 +5,7 @@
 class trap : public stillentity
 {
 public:
-    trap(int x, int y);
+    trap(int x, int y, int capacite);
     int capacite() const;
     bool plein() const;
     void decrCapacite();

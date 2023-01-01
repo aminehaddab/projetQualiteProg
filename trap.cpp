@@ -1,6 +1,6 @@
 #include "trap.h"
 
-trap::trap(int x, int y):stillentity{x,y}{
+trap::trap(int x, int y, int capacite):stillentity{x,y}, d_capacite{capacite}, d_plein{false}{
 
 }
 
