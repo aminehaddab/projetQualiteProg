@@ -1,6 +1,9 @@
 #ifndef LION_H
 #define LION_H
+#include <iostream>
 #include "tawny.h"
+#include "terrain.h"
+#include "position.h"
 
 class lion : public tawny
 {

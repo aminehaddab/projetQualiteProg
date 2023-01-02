@@ -6,6 +6,5 @@
 class tawny: public animatedentity {
 public:
     tawny(int x, int y);
-
 };
 #endif // TAWNY_H

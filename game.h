@@ -1,6 +1,9 @@
 #ifndef GAME_H
 #define GAME_H
 #include "terrain.h"
+#include <iostream>
+
+using namespace std;
 
 class game{
 public:
@@ -8,7 +11,7 @@ public:
     void incrNbrFauvesMorts();
     void incrNbrTours();
     void play();
-    terrain& terrainDuJeu();
+    terrain& terrainDeJeu();
 private:
     int nbFauvesMorts;
     int nbTours;

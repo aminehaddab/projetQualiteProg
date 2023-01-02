@@ -1,7 +1,9 @@
 #ifndef CLASSIC_H
 #define CLASSIC_H
+#include <iostream>
 #include "player.h"
 #include "terrain.h"
+#include "position.h"
 
 class classic : public player
 {

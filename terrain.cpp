@@ -48,9 +48,9 @@ void terrain::afficherTerrain(){
 
     for (int i = 0; i < nbLignes(); ++i){
         for (int j = 0; j < nbColonnes(); ++j){
-           cout << d_terrain[i][j];
+           cout << d_terrain[i][j] << " ";
         }
-        cout << endl;
+        cout << endl << endl;
     }
 }
 
@@ -74,38 +74,44 @@ void terrain::changerConfigTerrain(){
 
 }
 
-void terrain::tuerTawny(position p){
+void terrain::tuerTawny(int x, int y){
     for(int i = 0; i < d_tawnys.size(); ++i){
-        if(d_tawnys[i]->pos().x() == p.x() && d_tawnys[i]->pos().y() == p.y()){
+        if(d_tawnys[i]->pos().x() == x && d_tawnys[i]->pos().y() == y){
             d_tawnys.erase(d_tawnys.begin() + i);
             break;
         }
     }
 }
 
-void terrain::desactiverPiege(position p){
+void terrain::desactiverPiege(int x, int y){
     for(int i = 0; i < d_traps.size(); ++i){
-        if(d_traps[i]->pos().x() == p.x() && d_traps[i]->pos().y() == p.y()){
+        if(d_traps[i]->pos().x() == x && d_traps[i]->pos().y() == y){
             d_traps.erase(d_traps.begin() + i);
             break;
         }
     }
 }
 
-unique_ptr<tawny> terrain::tawnyAtPosition(position p){
-    for (auto &taw: d_tawnys){
-        if(taw->pos().x() == p.x() && taw->pos().y() == p.y()){
-            return move(taw);
+bool terrain::arbreAPosition(int x, int y){
+    for (int i =0; i < d_trees.size(); ++i){
+        if(d_trees[i]->pos().x() == x && d_trees[i]->pos().y() == y){
+            return true;
         }
     }
-    return nullptr;
+    return false;
 }
 
-unique_ptr<trap> terrain::trapAtPosition(position p){
-
+unique_ptr<player>& terrain::getPlayer(){
+    return d_player;
 }
 
+vector<unique_ptr<tawny>>& terrain::getTawnys(){
+    return d_tawnys;
+}
 
+vector<vector<char>>& terrain::getTerrain(){
+    return d_terrain;
+}
 /*
 using geom::point;
 

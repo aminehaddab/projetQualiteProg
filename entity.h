@@ -6,7 +6,7 @@ class entity
 {
 public:
     entity(int x, int y);
-    position pos() const;
+    position& pos();
     virtual ~entity() = default;
     virtual char type() = 0;
 

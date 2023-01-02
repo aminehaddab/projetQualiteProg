@@ -21,11 +21,12 @@ public:
     void editerTerrain();
     void sauverTerrain();
     void changerConfigTerrain();
-    void tuerTawny(position p);
-    void desactiverPiege(position p);
-    unique_ptr<tawny> tawnyAtPosition(position p);
-    unique_ptr<trap> trapAtPosition(position p);
-
+    void tuerTawny(int x, int y);
+    void desactiverPiege(int x, int y);
+    bool arbreAPosition(int x, int y);
+    unique_ptr<player>& getPlayer();
+    vector<unique_ptr<tawny>>& getTawnys();
+    vector<vector<char>>& getTerrain();
 private:
     vector<vector<char>> d_terrain;
     unique_ptr<player> d_player;

@@ -2,6 +2,8 @@
 #define EXPERT_H
 #include "player.h"
 #include "terrain.h"
+#include <iostream>
+
 
 class expert : public player
 {
