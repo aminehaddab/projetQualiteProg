@@ -1,13 +1,13 @@
 #include "animatedentity.h"
 
-animatedentity::animatedentity(int x, int y):entity{x,y}, d_vivant{true}{
+Animatedentity::Animatedentity(int x, int y):Entity{x,y}, d_vivant{true}{
 
 }
 
-bool animatedentity::estVivant() const{
+bool Animatedentity::estVivant() const{
     return d_vivant;
 }
 
-void animatedentity::meurt(){
+void Animatedentity::meurt(){
     d_vivant = false;
 }

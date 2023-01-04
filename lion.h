@@ -5,15 +5,15 @@
 #include "terrain.h"
 #include "position.h"
 
-class lion : public tawny
+class Lion : public Tawny
 {
 public:
-    lion(int x, int y);
+    Lion(int x, int y);
     void deplacerN();
     void deplacerS();
     void deplacerE();
     void deplacerW();
-    void deplacer(terrain &t) override;
+    void deplacer(Terrain &t) override;
     char type() override;
 };
 

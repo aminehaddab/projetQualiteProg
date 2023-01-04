@@ -8,11 +8,11 @@
 
 using namespace std;
 
-class terrain
+class Terrain
 {
 public:
-    terrain(const terrain& t);
-    terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys, vector<unique_ptr<trap>> traps, vector<unique_ptr<tree>> trees);
+    Terrain(const Terrain& t);
+    Terrain(int lignes, int colonnes, unique_ptr<Player> player, vector<unique_ptr<Tawny>> tawnys, vector<unique_ptr<Trap>> traps, vector<unique_ptr<Tree>> trees);
     int nbLignes() const;
     int nbColonnes() const;
     void afficherTerrain();
@@ -24,15 +24,15 @@ public:
     void tuerTawny(int x, int y);
     void desactiverPiege(int x, int y);
     bool arbreAPosition(int x, int y);
-    unique_ptr<player>& getPlayer();
-    vector<unique_ptr<tawny>>& getTawnys();
+    unique_ptr<Player>& getPlayer();
+    vector<unique_ptr<Tawny>>& getTawnys();
     vector<vector<char>>& getTerrain();
 private:
     vector<vector<char>> d_terrain;
-    unique_ptr<player> d_player;
-    vector<unique_ptr<tawny>> d_tawnys;
-    vector<unique_ptr<trap>> d_traps;
-    vector<unique_ptr<tree>> d_trees;
+    unique_ptr<Player> d_player;
+    vector<unique_ptr<Tawny>> d_tawnys;
+    vector<unique_ptr<Trap>> d_traps;
+    vector<unique_ptr<Tree>> d_trees;
 };
 /*
 class terrain {

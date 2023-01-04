@@ -1,5 +1,5 @@
 #include "stillentity.h"
 
-stillentity::stillentity(int x, int y):entity{x,y}{
+Stillentity::Stillentity(int x, int y):Entity{x,y}{
 
 }

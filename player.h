@@ -2,11 +2,11 @@
 #define PLAYER_H
 #include "animatedentity.h"
 
-class player: public animatedentity
+class Player: public Animatedentity
 {
 public:
-    virtual ~player() = default;
-    player(int x, int y);
+    virtual ~Player() = default;
+    Player(int x, int y);
 protected:
 
 };

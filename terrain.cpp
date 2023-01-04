@@ -4,24 +4,24 @@
 
 using namespace std;
 
-terrain::terrain(const terrain& t){
+Terrain::Terrain(const Terrain& t){
 
 }
 
-terrain::terrain(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys, vector<unique_ptr<trap>> traps, vector<unique_ptr<tree>> trees)
+Terrain::Terrain(int lignes, int colonnes, unique_ptr<Player> player, vector<unique_ptr<Tawny>> tawnys, vector<unique_ptr<Trap>> traps, vector<unique_ptr<Tree>> trees)
 :d_terrain(vector<vector<char>>(lignes, vector<char>(colonnes, '_'))), d_player{move(player)}, d_tawnys(move(tawnys)), d_traps(move(traps)), d_trees(move(trees)){
 
 }
 
-int terrain::nbLignes() const {
+int Terrain::nbLignes() const {
     return d_terrain.size();
 }
 
-int terrain::nbColonnes() const {
+int Terrain::nbColonnes() const {
     return d_terrain[0].size();
 }
 
-void terrain::afficherTerrain(){
+void Terrain::afficherTerrain(){
     for (int i = 0; i < nbLignes(); ++i){
         for (int j = 0; j < nbColonnes(); ++j){
             d_terrain[i][j] = '_';
@@ -54,27 +54,27 @@ void terrain::afficherTerrain(){
     }
 }
 
-void terrain::chargerTerrain(){
+void Terrain::chargerTerrain(){
 
 }
 
-void terrain::creerTerrain(){
+void Terrain::creerTerrain(){
 
 }
 
-void terrain::editerTerrain(){
+void Terrain::editerTerrain(){
 
 }
 
-void terrain::sauverTerrain(){
+void Terrain::sauverTerrain(){
 
 }
 
-void terrain::changerConfigTerrain(){
+void Terrain::changerConfigTerrain(){
 
 }
 
-void terrain::tuerTawny(int x, int y){
+void Terrain::tuerTawny(int x, int y){
     for(int i = 0; i < d_tawnys.size(); ++i){
         if(d_tawnys[i]->pos().x() == x && d_tawnys[i]->pos().y() == y){
             d_tawnys.erase(d_tawnys.begin() + i);
@@ -83,7 +83,7 @@ void terrain::tuerTawny(int x, int y){
     }
 }
 
-void terrain::desactiverPiege(int x, int y){
+void Terrain::desactiverPiege(int x, int y){
     for(int i = 0; i < d_traps.size(); ++i){
         if(d_traps[i]->pos().x() == x && d_traps[i]->pos().y() == y){
             d_traps.erase(d_traps.begin() + i);
@@ -92,7 +92,7 @@ void terrain::desactiverPiege(int x, int y){
     }
 }
 
-bool terrain::arbreAPosition(int x, int y){
+bool Terrain::arbreAPosition(int x, int y){
     for (int i =0; i < d_trees.size(); ++i){
         if(d_trees[i]->pos().x() == x && d_trees[i]->pos().y() == y){
             return true;
@@ -101,15 +101,15 @@ bool terrain::arbreAPosition(int x, int y){
     return false;
 }
 
-unique_ptr<player>& terrain::getPlayer(){
+unique_ptr<Player>& Terrain::getPlayer(){
     return d_player;
 }
 
-vector<unique_ptr<tawny>>& terrain::getTawnys(){
+vector<unique_ptr<Tawny>>& Terrain::getTawnys(){
     return d_tawnys;
 }
 
-vector<vector<char>>& terrain::getTerrain(){
+vector<vector<char>>& Terrain::getTerrain(){
     return d_terrain;
 }
 /*

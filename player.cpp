@@ -1,5 +1,5 @@
 #include "player.h"
 
-player::player(int x, int y):animatedentity{x,y}{
+Player::Player(int x, int y):Animatedentity{x,y}{
 
 }

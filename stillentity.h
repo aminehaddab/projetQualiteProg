@@ -2,9 +2,9 @@
 #define STILLENTITY_H
 #include "entity.h"
 
-class stillentity: public entity
+class Stillentity: public Entity
 {
 public:
-    stillentity(int x, int y);
+    Stillentity(int x, int y);
 };
 #endif // STILLENTITY_H

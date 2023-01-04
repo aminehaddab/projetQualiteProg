@@ -5,10 +5,10 @@
 #include "terrain.h"
 #include "position.h"
 
-class classic : public player
+class Classic : public Player
 {
 public:
-    classic(int x, int y);
+    Classic(int x, int y);
     void deplacerN();
     void deplacerS();
     void deplacerE();
@@ -17,7 +17,7 @@ public:
     void deplacerNW();
     void deplacerSE();
     void deplacerSW();
-    void deplacer(terrain &t) override;
+    void deplacer(Terrain &t) override;
     char type() override;
 private:
 

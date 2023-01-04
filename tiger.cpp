@@ -1,49 +1,49 @@
 #include "tiger.h"
 
 
-tiger::tiger(int x, int y):tawny{x,y}{
+Tiger::Tiger(int x, int y):Tawny{x,y}{
 
 }
 
-void tiger::deplacerN(){
+void Tiger::deplacerN(){
     d_position.deplacerY(d_position.y()+1);
 }
 
-void tiger::deplacerS(){
+void Tiger::deplacerS(){
     d_position.deplacerY(d_position.y()-1);
 }
 
-void tiger::deplacerE(){
+void Tiger::deplacerE(){
     d_position.deplacerX(d_position.x()+1);
 }
 
-void tiger::deplacerW(){
+void Tiger::deplacerW(){
     d_position.deplacerX(d_position.x()-1);
 }
 
-void tiger::deplacerNE(){
+void Tiger::deplacerNE(){
     d_position.deplacerX(d_position.x()-1);
     d_position.deplacerY(d_position.y()+1);
 }
 
-void tiger::deplacerNW(){
+void Tiger::deplacerNW(){
     d_position.deplacerX(d_position.x()-1);
     d_position.deplacerY(d_position.y()-1);
 }
 
-void tiger::deplacerSE(){
+void Tiger::deplacerSE(){
     d_position.deplacerX(d_position.x()+1);
     d_position.deplacerY(d_position.y()+1);
 }
 
-void tiger::deplacerSW(){
+void Tiger::deplacerSW(){
     d_position.deplacerX(d_position.x()+1);
     d_position.deplacerY(d_position.y()-1);
 }
 
-void tiger::deplacer(terrain &t){
+void Tiger::deplacer(Terrain &t){
     bool deplacementFait = false;
-    position p = t.getPlayer()->pos();
+    Position p = t.getPlayer()->pos();
 
     if(d_position.x() < p.x()){
         if(d_position.y() < p.y()){
@@ -273,6 +273,6 @@ void tiger::deplacer(terrain &t){
 
 }
 
-char tiger::type(){
+char Tiger::type(){
     return 'T';
 }

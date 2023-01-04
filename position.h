@@ -1,11 +1,11 @@
 #ifndef POSITION_H
 #define POSITION_H
 
-class position
+class Position
 {
 public:
-    position();
-    position(int x, int y);
+    Position();
+    Position(int x, int y);
 
     int x() const;
     int y() const;

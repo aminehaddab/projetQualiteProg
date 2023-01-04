@@ -5,17 +5,17 @@
 
 using namespace std;
 
-class game{
+class Game{
 public:
-    game(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys, vector<unique_ptr<trap>> traps, vector<unique_ptr<tree>> trees);
+    Game(int lignes, int colonnes, unique_ptr<Player> player, vector<unique_ptr<Tawny>> tawnys, vector<unique_ptr<Trap>> traps, vector<unique_ptr<Tree>> trees);
     void incrNbrFauvesMorts();
     void incrNbrTours();
     void play();
-    terrain& terrainDeJeu();
+    Terrain& terrainDeJeu();
 private:
     int nbFauvesMorts;
     int nbTours;
-    terrain d_terrain;
+    Terrain d_terrain;
 };
 
 #endif // GAME_H

@@ -1,31 +1,31 @@
 #include "position.h"
 
-position::position(): d_x{0}, d_y{0}
+Position::Position(): d_x{0}, d_y{0}
 {}
 
-position::position (int x, int y ): d_x{x}, d_y{y}
+Position::Position (int x, int y ): d_x{x}, d_y{y}
 {}
 
-int position::x() const
+int Position::x() const
 {
     return d_x;
 }
 
-int position::y() const
+int Position::y() const
 {
     return d_y;
 }
 
-void position::deplacer(int x, int y){
+void Position::deplacer(int x, int y){
     d_x = x;
     d_y = y;
 }
 
-void position::deplacerX(int x){
+void Position::deplacerX(int x){
     d_x = x;
 }
 
-void position::deplacerY(int y){
+void Position::deplacerY(int y){
     d_y = y;
 }
 

@@ -1,4 +1,4 @@
 #include "tawny.h"
 
-tawny::tawny(int x, int y):animatedentity{x,y}{
+Tawny::Tawny(int x, int y):Animatedentity{x,y}{
 }

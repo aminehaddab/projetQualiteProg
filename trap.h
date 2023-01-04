@@ -2,10 +2,10 @@
 #define TRAP_H
 #include "stillentity.h"
 
-class trap : public stillentity
+class Trap : public Stillentity
 {
 public:
-    trap(int x, int y, int capacite);
+    Trap(int x, int y, int capacite);
     int capacite() const;
     bool plein() const;
     void decrCapacite();

@@ -1,47 +1,47 @@
 #include "classic.h"
 
 
-classic::classic(int x, int y):player{x,y}{
+Classic::Classic(int x, int y):Player{x,y}{
 
 }
 
-void classic::deplacerN(){
+void Classic::deplacerN(){
     d_position.deplacerX(d_position.x()-1);
 }
 
-void classic::deplacerS(){
+void Classic::deplacerS(){
     d_position.deplacerX(d_position.x()+1);
 }
 
-void classic::deplacerE(){
+void Classic::deplacerE(){
     d_position.deplacerY(d_position.y()+1);
 }
 
-void classic::deplacerW(){
+void Classic::deplacerW(){
     d_position.deplacerY(d_position.y()-1);
 }
 
-void classic::deplacerNE(){
+void Classic::deplacerNE(){
     d_position.deplacerX(d_position.x()-1);
     d_position.deplacerY(d_position.y()+1);
 }
 
-void classic::deplacerNW(){
+void Classic::deplacerNW(){
     d_position.deplacerX(d_position.x()-1);
     d_position.deplacerY(d_position.y()-1);
 }
 
-void classic::deplacerSE(){
+void Classic::deplacerSE(){
     d_position.deplacerX(d_position.x()+1);
     d_position.deplacerY(d_position.y()+1);
 }
 
-void classic::deplacerSW(){
+void Classic::deplacerSW(){
     d_position.deplacerX(d_position.x()+1);
     d_position.deplacerY(d_position.y()-1);
 }
 
-void classic::deplacer(terrain &t){
+void Classic::deplacer(Terrain &t){
     cout << endl << "deplacez vous avec 'a' 'z' 'e' 'd' 'c' 'x' 'w' 'q' : ";
     char c;
     bool possible = true;
@@ -217,6 +217,6 @@ void classic::deplacer(terrain &t){
     cout << endl;
 }
 
-char classic::type(){
+char Classic::type(){
     return 'C';
 }

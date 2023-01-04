@@ -1,24 +1,24 @@
 #include "game.h"
 
 
-game::game(int lignes, int colonnes, unique_ptr<player> player, vector<unique_ptr<tawny>> tawnys, vector<unique_ptr<trap>> traps, vector<unique_ptr<tree>> trees)
+Game::Game(int lignes, int colonnes, unique_ptr<Player> player, vector<unique_ptr<Tawny>> tawnys, vector<unique_ptr<Trap>> traps, vector<unique_ptr<Tree>> trees)
 :d_terrain{lignes, colonnes, move(player), move(tawnys), move(traps), move(trees)}, nbFauvesMorts{0}, nbTours{0}{
 
 }
 
-void game::incrNbrFauvesMorts(){
+void Game::incrNbrFauvesMorts(){
     nbFauvesMorts++;
 }
 
-void game::incrNbrTours(){
+void Game::incrNbrTours(){
     nbTours++;
 }
 
-terrain& game::terrainDeJeu(){
+Terrain& Game::terrainDeJeu(){
     return d_terrain;
 }
 
-void game::play(){
+void Game::play(){
     while(terrainDeJeu().getPlayer()->estVivant() && terrainDeJeu().getTawnys().size() > 0 ){
         terrainDeJeu().afficherTerrain();
         terrainDeJeu().getPlayer()->deplacer(terrainDeJeu());

@@ -1,9 +1,9 @@
 #include "tree.h"
 
-tree::tree(int x, int y):stillentity{x,y}{
+Tree::Tree(int x, int y):Stillentity{x,y}{
 
 }
 
-char tree::type(){
+char Tree::type(){
     return 'A';
 }

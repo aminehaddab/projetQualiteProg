@@ -3,8 +3,8 @@
 #include "animatedentity.h"
 
 
-class tawny: public animatedentity {
+class Tawny: public Animatedentity {
 public:
-    tawny(int x, int y);
+    Tawny(int x, int y);
 };
 #endif // TAWNY_H

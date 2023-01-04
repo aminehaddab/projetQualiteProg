@@ -1,21 +1,21 @@
 #include "trap.h"
 
-trap::trap(int x, int y, int capacite):stillentity{x,y}, d_capacite{capacite}, d_plein{false}{
+Trap::Trap(int x, int y, int capacite):Stillentity{x,y}, d_capacite{capacite}, d_plein{false}{
 
 }
 
-int trap::capacite() const{
+int Trap::capacite() const{
     return d_capacite;
 }
 
-bool trap::plein() const{
+bool Trap::plein() const{
     return d_plein;
 }
 
-void trap::decrCapacite(){
+void Trap::decrCapacite(){
     d_capacite--;
 }
 
-char trap::type(){
+char Trap::type(){
     return 'P';
 }

@@ -1,8 +1,8 @@
 #include "entity.h"
 
-entity::entity(int x, int y): d_position{x,y}{
+Entity::Entity(int x, int y): d_position{x,y}{
 }
 
-position& entity::pos(){
+Position& Entity::pos(){
     return d_position;
 }

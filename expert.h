@@ -1,19 +1,19 @@
 #ifndef EXPERT_H
 #define EXPERT_H
+#include <iostream>
 #include "player.h"
 #include "terrain.h"
-#include <iostream>
 
 
-class expert : public player
+class Expert : public Player
 {
 public:
-    expert(int x, int y);
+    Expert(int x, int y);
     void deplacerN();
     void deplacerS();
     void deplacerE();
     void deplacerW();
-    void deplacer(terrain &t) override;
+    void deplacer(Terrain &t) override;
     char type() override;
 private:
 

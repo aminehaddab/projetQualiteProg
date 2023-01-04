@@ -2,10 +2,10 @@
 #define TREE_H
 #include "stillentity.h"
 
-class tree : public stillentity
+class Tree : public Stillentity
 {
 public:
-    tree(int x, int y);
+    Tree(int x, int y);
     char type() override;
 };
 

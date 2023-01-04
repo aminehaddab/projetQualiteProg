@@ -1,27 +1,27 @@
 #include "expert.h"
 #include "position.h"
 
-expert::expert(int x, int y):player{x,y}{
+Expert::Expert(int x, int y):Player{x,y}{
 
 }
 
-void expert::deplacerN(){
+void Expert::deplacerN(){
     d_position.deplacerX(d_position.x()-1);
 }
 
-void expert::deplacerS(){
+void Expert::deplacerS(){
     d_position.deplacerX(d_position.x()+1);
 }
 
-void expert::deplacerE(){
+void Expert::deplacerE(){
     d_position.deplacerY(d_position.y()+1);
 }
 
-void expert::deplacerW(){
+void Expert::deplacerW(){
     d_position.deplacerY(d_position.y()-1);
 }
 
-void expert::deplacer(terrain &t){
+void Expert::deplacer(Terrain &t){
     cout << endl << "deplacez vous avec 'z' 'd' 'x' 'q' : ";
     char c;
     bool possible = true;
@@ -117,6 +117,6 @@ void expert::deplacer(terrain &t){
     cout << endl;
 }
 
-char expert::type(){
+char Expert::type(){
     return 'E';
 }

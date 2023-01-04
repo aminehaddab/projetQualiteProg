@@ -2,16 +2,16 @@
 #define ENTITY_H
 #include "position.h"
 
-class entity
+class Entity
 {
 public:
-    entity(int x, int y);
-    position& pos();
-    virtual ~entity() = default;
+    Entity(int x, int y);
+    Position& pos();
+    virtual ~Entity() = default;
     virtual char type() = 0;
 
 protected:
-    position d_position;
+    Position d_position;
 };
 
 

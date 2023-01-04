@@ -2,18 +2,18 @@
 #define ANIMATEDENTITY_H
 #include <vector>
 #include "entity.h"
-class terrain;
+class Terrain;
 
 using namespace std;
 
-class animatedentity : public entity
+class Animatedentity : public Entity
 {
 public:
-    animatedentity(int x, int y);
-    virtual ~animatedentity() = default;
+    Animatedentity(int x, int y);
+    virtual ~Animatedentity() = default;
     bool estVivant() const;
     void meurt();
-    virtual void deplacer(terrain &t) = 0;
+    virtual void deplacer(Terrain &t) = 0;
 
 protected:
     bool d_vivant;

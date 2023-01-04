@@ -1,29 +1,29 @@
 #include "lion.h"
 
 
-lion::lion(int x, int y):tawny{x,y}{
+Lion::Lion(int x, int y):Tawny{x,y}{
 
 }
 
-void lion::deplacerN(){
+void Lion::deplacerN(){
     d_position.deplacerX(d_position.x()-1);
 }
 
-void lion::deplacerS(){
+void Lion::deplacerS(){
     d_position.deplacerX(d_position.x()+1);
 }
 
-void lion::deplacerE(){
+void Lion::deplacerE(){
     d_position.deplacerY(d_position.y()+1);
 }
 
-void lion::deplacerW(){
+void Lion::deplacerW(){
     d_position.deplacerY(d_position.y()-1);
 }
 
-void lion::deplacer(terrain &t){
+void Lion::deplacer(Terrain &t){
     bool deplacementFait = false;
-    position p = t.getPlayer()->pos();
+    Position p = t.getPlayer()->pos();
 
     if(d_position.x() < p.x()){
         switch(t.getTerrain()[d_position.x()+1][d_position.y()]){
@@ -133,6 +133,6 @@ void lion::deplacer(terrain &t){
 
 }
 
-char lion::type(){
+char Lion::type(){
     return 'L';
 }
