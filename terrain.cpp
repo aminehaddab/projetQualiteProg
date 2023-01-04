@@ -4,12 +4,12 @@
 
 using namespace std;
 
-Terrain::Terrain(const Terrain& t){
+Terrain::Terrain(){
 
 }
 
 Terrain::Terrain(int lignes, int colonnes, unique_ptr<Player> player, vector<unique_ptr<Tawny>> tawnys, vector<unique_ptr<Trap>> traps, vector<unique_ptr<Tree>> trees)
-:d_terrain(vector<vector<char>>(lignes, vector<char>(colonnes, '_'))), d_player{move(player)}, d_tawnys(move(tawnys)), d_traps(move(traps)), d_trees(move(trees)){
+:d_terrain(vector<vector<char>>(lignes, vector<char>(colonnes, '_'))), d_player{move(player)}, d_tawnys(move(tawnys)), d_traps(move(traps)), d_trees(move(trees)), nbFauvesMorts{0}, nbTours{0}{
 
 }
 
@@ -19,6 +19,14 @@ int Terrain::nbLignes() const {
 
 int Terrain::nbColonnes() const {
     return d_terrain[0].size();
+}
+
+int Terrain::nbrFauvesMortsPartie(){
+    return nbFauvesMorts;
+}
+
+int Terrain::nbrToursPartie(){
+    return nbTours;
 }
 
 void Terrain::afficherTerrain(){
@@ -77,6 +85,7 @@ void Terrain::changerConfigTerrain(){
 void Terrain::tuerTawny(int x, int y){
     for(int i = 0; i < d_tawnys.size(); ++i){
         if(d_tawnys[i]->pos().x() == x && d_tawnys[i]->pos().y() == y){
+            incrNbrFauvesMorts();
             d_tawnys.erase(d_tawnys.begin() + i);
             break;
         }
@@ -112,6 +121,15 @@ vector<unique_ptr<Tawny>>& Terrain::getTawnys(){
 vector<vector<char>>& Terrain::getTerrain(){
     return d_terrain;
 }
+
+void Terrain::incrNbrFauvesMorts(){
+    nbFauvesMorts++;
+}
+
+void Terrain::incrNbrTours(){
+    nbTours++;
+}
+
 /*
 using geom::point;
 

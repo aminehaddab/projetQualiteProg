@@ -97,7 +97,7 @@
 	<memory>
 	<string>
 
-1672847827 source:c:\users\amine\onedrive\documents\projetqualiteprog\main.cpp
+1672855866 source:c:\users\amine\onedrive\documents\projetqualiteprog\main.cpp
 	<iostream>
 	<memory>
 	"terrain.h"
@@ -107,14 +107,14 @@
 	"lion.h"
 	"game.h"
 
-1672847967 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
+1672854386 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
 	"memory"
 	"tawny.h"
 	"trap.h"
 	"tree.h"
 	"player.h"
 
-1672847924 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
+1672856174 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
 	<iostream>
 	"terrain.h"
 	"player.h"
@@ -168,7 +168,7 @@
 1672847462 source:c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.cpp
 	"animatedentity.h"
 
-1672847208 c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.h
+1672850367 c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.h
 	<vector>
 	"entity.h"
 
@@ -178,11 +178,12 @@
 1672847276 c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.h
 	"entity.h"
 
-1672847933 source:c:\users\amine\onedrive\documents\projetqualiteprog\player.cpp
+1672850552 source:c:\users\amine\onedrive\documents\projetqualiteprog\player.cpp
 	"player.h"
 
-1672847190 c:\users\amine\onedrive\documents\projetqualiteprog\player.h
+1672850580 c:\users\amine\onedrive\documents\projetqualiteprog\player.h
 	"animatedentity.h"
+	<iostream>
 
 1672847947 source:c:\users\amine\onedrive\documents\projetqualiteprog\tawny.cpp
 	"tawny.h"
@@ -193,7 +194,7 @@
 1672847619 source:c:\users\amine\onedrive\documents\projetqualiteprog\entity.cpp
 	"entity.h"
 
-1672847666 source:c:\users\amine\onedrive\documents\projetqualiteprog\expert.cpp
+1672850120 source:c:\users\amine\onedrive\documents\projetqualiteprog\expert.cpp
 	"expert.h"
 	"position.h"
 
@@ -202,7 +203,7 @@
 	"player.h"
 	"terrain.h"
 
-1672847540 source:c:\users\amine\onedrive\documents\projetqualiteprog\classic.cpp
+1672850142 source:c:\users\amine\onedrive\documents\projetqualiteprog\classic.cpp
 	"classic.h"
 
 1672847224 c:\users\amine\onedrive\documents\projetqualiteprog\classic.h
@@ -211,7 +212,7 @@
 	"terrain.h"
 	"position.h"
 
-1672847860 source:c:\users\amine\onedrive\documents\projetqualiteprog\tiger.cpp
+1672848553 source:c:\users\amine\onedrive\documents\projetqualiteprog\tiger.cpp
 	"tiger.h"
 
 1672847240 c:\users\amine\onedrive\documents\projetqualiteprog\tiger.h
@@ -312,10 +313,10 @@
 1672482402 c:\users\elève\documents\projetqualiteprog\game.h
 	"terrain.h"
 
-1672847971 source:c:\users\amine\onedrive\documents\projetqualiteprog\game.cpp
+1672857359 source:c:\users\amine\onedrive\documents\projetqualiteprog\game.cpp
 	"game.h"
 
-1672847260 c:\users\amine\onedrive\documents\projetqualiteprog\game.h
+1672853889 c:\users\amine\onedrive\documents\projetqualiteprog\game.h
 	"terrain.h"
 	<iostream>
 

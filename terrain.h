@@ -11,10 +11,14 @@ using namespace std;
 class Terrain
 {
 public:
-    Terrain(const Terrain& t);
+    Terrain();
     Terrain(int lignes, int colonnes, unique_ptr<Player> player, vector<unique_ptr<Tawny>> tawnys, vector<unique_ptr<Trap>> traps, vector<unique_ptr<Tree>> trees);
     int nbLignes() const;
     int nbColonnes() const;
+    void incrNbrFauvesMorts();
+    void incrNbrTours();
+    int nbrFauvesMortsPartie();
+    int nbrToursPartie();
     void afficherTerrain();
     void chargerTerrain();
     void creerTerrain();
@@ -33,6 +37,8 @@ private:
     vector<unique_ptr<Tawny>> d_tawnys;
     vector<unique_ptr<Trap>> d_traps;
     vector<unique_ptr<Tree>> d_trees;
+    int nbFauvesMorts;
+    int nbTours;
 };
 /*
 class terrain {

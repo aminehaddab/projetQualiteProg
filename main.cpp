@@ -12,8 +12,8 @@ using namespace std;
 int main()
 {
     vector<unique_ptr<Tawny>> tawnys;
-    tawnys.push_back(make_unique<Tiger>(0,3));
-    tawnys.push_back(make_unique<Lion>(3,0));
+    tawnys.push_back(make_unique<Tiger>(4,4));
+    tawnys.push_back(make_unique<Lion>(5,0));
 
     vector<unique_ptr<Trap>> traps;
     traps.push_back(make_unique<Trap>(3,3,1));
@@ -37,7 +37,7 @@ int main()
     cout << g.terrainDeJeu().getTawnys()[0]->pos().x();
     */
 
-    g.play();
+    g.menu();
 
     return 0;
 }

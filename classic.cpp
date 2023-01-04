@@ -42,7 +42,7 @@ void Classic::deplacerSW(){
 }
 
 void Classic::deplacer(Terrain &t){
-    cout << endl << "deplacez vous avec 'a' 'z' 'e' 'd' 'c' 'x' 'w' 'q' : ";
+    cout << endl << "Deplacez vous avec 'a' 'z' 'e' 'd' 'c' 'x' 'w' 'q' : ";
     char c;
     bool possible = true;
     do{
@@ -53,11 +53,11 @@ void Classic::deplacer(Terrain &t){
             switch(c){
                 case 'a':
                     if(d_position.x() - 1 < 0 || d_position.y() - 1 < 0){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x() - 1, d_position.y() - 1)){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x() - 1][d_position.y() - 1] == '_'){
@@ -73,11 +73,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'z':
                     if(d_position.x() - 1 < 0){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x() - 1, d_position.y())){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x() - 1][d_position.y()] == '_'){
@@ -93,11 +93,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'e':
                     if(d_position.x() - 1 < 0 || d_position.y() + 1 >= t.nbColonnes()){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x() - 1, d_position.y() + 1)){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x() - 1][d_position.y() + 1] == '_'){
@@ -113,11 +113,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'd':
                     if(d_position.y() + 1 >= t.nbColonnes()){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x(), d_position.y() + 1)){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x()][d_position.y() + 1] == '_'){
@@ -133,11 +133,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'c':
                     if(d_position.x() + 1 >= t.nbLignes() || d_position.y() + 1 >= t.nbColonnes()){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x() + 1, d_position.y() + 1)){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x() + 1][d_position.y() + 1] == '_'){
@@ -153,11 +153,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'x':
                     if(d_position.x() + 1 >= t.nbLignes()){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x(), d_position.y() + 1)){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x() + 1][d_position.y()] == '_'){
@@ -173,11 +173,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'w':
                     if(d_position.x() + 1 >= t.nbLignes() || d_position.y() - 1 < 0){
-                        cout << "out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x() + 1, d_position.y() - 1)){
-                            cout << "arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x() + 1][d_position.y() - 1] == '_'){
@@ -193,11 +193,11 @@ void Classic::deplacer(Terrain &t){
 
                 case 'q':
                     if(d_position.y() - 1 < 0){
-                        cout << "Out of range : ";
+                        cout << "Ne sortez pas du terrain : ";
                         possible = false;
                     }else{
                         if(t.arbreAPosition(d_position.x(), d_position.y() - 1)){
-                            cout << "Arbre bloque le passage : ";
+                            cout << "Mince, un arbre vous bloque le passage : ";
                             possible = false;
                         }else{
                             if(t.getTerrain()[d_position.x()][d_position.y() - 1] == '_'){

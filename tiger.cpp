@@ -6,19 +6,19 @@ Tiger::Tiger(int x, int y):Tawny{x,y}{
 }
 
 void Tiger::deplacerN(){
-    d_position.deplacerY(d_position.y()+1);
+    d_position.deplacerX(d_position.x()-1);
 }
 
 void Tiger::deplacerS(){
-    d_position.deplacerY(d_position.y()-1);
-}
-
-void Tiger::deplacerE(){
     d_position.deplacerX(d_position.x()+1);
 }
 
+void Tiger::deplacerE(){
+    d_position.deplacerY(d_position.y()+1);
+}
+
 void Tiger::deplacerW(){
-    d_position.deplacerX(d_position.x()-1);
+    d_position.deplacerY(d_position.y()-1);
 }
 
 void Tiger::deplacerNE(){
