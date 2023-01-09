@@ -6,7 +6,6 @@ class Position
 public:
     Position();
     Position(int x, int y);
-
     int x() const;
     int y() const;
     void deplacer(int x, int y);

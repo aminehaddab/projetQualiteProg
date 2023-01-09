@@ -1,0 +1,180 @@
+# depslib dependency file v1.0
+1673298666 source:c:\users\amine\onedrive\documents\projetqualiteprog\testmain.cpp
+	"doctest.h"
+
+1673293925 c:\users\amine\onedrive\documents\projetqualiteprog\doctest.h
+	<signal.h>
+	<iosfwd>
+	<cstddef>
+	<ostream>
+	<ciso646>
+	<type_traits>
+	"doctest_fwd.h"
+	<ctime>
+	<cmath>
+	<climits>
+	<math.h>
+	<new>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<utility>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<atomic>
+	<mutex>
+	<set>
+	<map>
+	<exception>
+	<stdexcept>
+	<csignal>
+	<cfloat>
+	<cctype>
+	<cstdint>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<AfxWin.h>
+	<windows.h>
+	<io.h>
+	<sys/time.h>
+	<unistd.h>
+
+1673298243 source:c:\users\amine\onedrive\documents\projetqualiteprog\classic.cpp
+	"classic.h"
+
+1673300512 c:\users\amine\onedrive\documents\projetqualiteprog\classic.h
+	<iostream>
+	"player.h"
+	"terrain.h"
+	"position.h"
+
+1672850580 c:\users\amine\onedrive\documents\projetqualiteprog\player.h
+	"animatedentity.h"
+	<iostream>
+
+1672850367 c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.h
+	<vector>
+	"entity.h"
+
+1672847232 c:\users\amine\onedrive\documents\projetqualiteprog\entity.h
+	"position.h"
+
+1673304085 c:\users\amine\onedrive\documents\projetqualiteprog\position.h
+
+1672858259 c:\users\amine\onedrive\documents\projetqualiteprog\terrain.h
+	"memory"
+	"tawny.h"
+	"trap.h"
+	"tree.h"
+	"player.h"
+
+1672847263 c:\users\amine\onedrive\documents\projetqualiteprog\tawny.h
+	"animatedentity.h"
+
+1672847228 c:\users\amine\onedrive\documents\projetqualiteprog\trap.h
+	"stillentity.h"
+
+1672847276 c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.h
+	"entity.h"
+
+1672847213 c:\users\amine\onedrive\documents\projetqualiteprog\tree.h
+	"stillentity.h"
+
+1673300571 source:c:\users\amine\onedrive\documents\projetqualiteprog\classictest.cpp
+	"doctest.h"
+	"classic.h"
+
+1672847462 source:c:\users\amine\onedrive\documents\projetqualiteprog\animatedentity.cpp
+	"animatedentity.h"
+
+1672847619 source:c:\users\amine\onedrive\documents\projetqualiteprog\entity.cpp
+	"entity.h"
+
+1672850120 source:c:\users\amine\onedrive\documents\projetqualiteprog\expert.cpp
+	"expert.h"
+	"position.h"
+
+1672847245 c:\users\amine\onedrive\documents\projetqualiteprog\expert.h
+	<iostream>
+	"player.h"
+	"terrain.h"
+
+1672857380 source:c:\users\amine\onedrive\documents\projetqualiteprog\game.cpp
+	"game.h"
+
+1672853889 c:\users\amine\onedrive\documents\projetqualiteprog\game.h
+	"terrain.h"
+	<iostream>
+
+1672847758 source:c:\users\amine\onedrive\documents\projetqualiteprog\lion.cpp
+	"lion.h"
+
+1672847295 c:\users\amine\onedrive\documents\projetqualiteprog\lion.h
+	<iostream>
+	"tawny.h"
+	"terrain.h"
+	"position.h"
+
+1672847960 source:c:\users\amine\onedrive\documents\projetqualiteprog\position.cpp
+	"position.h"
+
+1672847939 source:c:\users\amine\onedrive\documents\projetqualiteprog\stillentity.cpp
+	"stillentity.h"
+
+1672847947 source:c:\users\amine\onedrive\documents\projetqualiteprog\tawny.cpp
+	"tawny.h"
+
+1672856174 source:c:\users\amine\onedrive\documents\projetqualiteprog\terrain.cpp
+	<iostream>
+	"terrain.h"
+	"player.h"
+
+1672857846 source:c:\users\amine\onedrive\documents\projetqualiteprog\tiger.cpp
+	"tiger.h"
+
+1672847240 c:\users\amine\onedrive\documents\projetqualiteprog\tiger.h
+	<iostream>
+	"tawny.h"
+	"position.h"
+	"terrain.h"
+
+1672847772 source:c:\users\amine\onedrive\documents\projetqualiteprog\trap.cpp
+	"trap.h"
+
+1672847638 source:c:\users\amine\onedrive\documents\projetqualiteprog\tree.cpp
+	"tree.h"
+
+1672850552 source:c:\users\amine\onedrive\documents\projetqualiteprog\player.cpp
+	"player.h"
+
+1673300778 source:c:\users\amine\onedrive\documents\projetqualiteprog\experttest.cpp
+	"doctest.h"
+	"expert.h"
+
+1673301329 source:c:\users\amine\onedrive\documents\projetqualiteprog\tigertest.cpp
+	"doctest.h"
+	"tiger.h"
+
+1673301382 source:c:\users\amine\onedrive\documents\projetqualiteprog\liontest.cpp
+	"doctest.h"
+	"lion.h"
+
+1673302751 source:c:\users\amine\onedrive\documents\projetqualiteprog\traptest.cpp
+	"doctest.h"
+	"trap.h"
+
+1673303208 source:c:\users\amine\onedrive\documents\projetqualiteprog\terraintest.cpp
+	"doctest.h"
+	"terrain.h"
+	"classic.h"
+	"expert.h"
+	"tiger.h"
+	"lion.h"
+	"game.h"
+

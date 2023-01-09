@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     vector<unique_ptr<Tawny>> tawnys;
-    tawnys.push_back(make_unique<Tiger>(4,4));
+    tawnys.push_back(make_unique<Tiger>(5,4));
     tawnys.push_back(make_unique<Lion>(5,0));
 
     vector<unique_ptr<Trap>> traps;

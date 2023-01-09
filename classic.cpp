@@ -1,6 +1,5 @@
 #include "classic.h"
 
-
 Classic::Classic(int x, int y):Player{x,y}{
 
 }

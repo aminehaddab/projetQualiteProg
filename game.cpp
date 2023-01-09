@@ -54,7 +54,6 @@ void Game::play(){
         cout
 		 << "      {{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}" << endl
 		 << "   {{{{{{{{   Nombre de fauves morts :  "<< d_terrain.nbrFauvesMortsPartie() <<"  }}}}}}}" << endl
-		 << "   {{{{{{{{   Nombre de tours passes :  "<< d_terrain.nbrToursPartie() << "  }}}}}}}" << endl
 		 << "      {{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}" << endl;
 }
 

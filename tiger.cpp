@@ -59,6 +59,7 @@ void Tiger::deplacer(Terrain &t){
                     deplacerSE();
                     break;
                 case 'P':
+
                     deplacementFait = true;
                     t.tuerTawny(d_position.x(), d_position.y());
                     break;
